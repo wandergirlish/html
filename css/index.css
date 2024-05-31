@@ -1,0 +1,169 @@
+.big .banner {
+    width: 1200px;
+    height: 468px;
+    margin: 10px 0;
+}
+
+.big .banner .l {
+    width: 210px;
+    height: 448px;
+    padding: 10px 0;
+    float: left;
+    margin-right: 10px;
+    background-color: rgb(177, 25, 26);
+}
+
+.big .banner .l li {
+    width: 200px;
+    height: 32px;
+    padding-left: 10px;
+    line-height: 32px;
+
+
+}
+
+.big .banner .l a {
+    color: #fff;
+}
+
+.big .banner .l li:hover {
+    background-color: #fff;
+
+}
+
+.big .banner .l li:hover a {
+    color: rgb(177, 25, 26);
+}
+
+.big .banner .l li:hover span {
+    color: rgb(177, 25, 26);
+}
+
+.big .banner .c {
+    width: 720px;
+    height: 468px;
+    float: left;
+    margin-right: 10px;
+}
+
+.big .banner .r {
+    width: 240px;
+    height: 468px;
+    float: right;
+    padding-left: 10px;
+}
+
+.big .banner span {
+    color: #fff;
+    font-family: 'icomoon';
+}
+
+.big .banner p {
+    height: 30px;
+    font-size: 15px;
+}
+
+.big .today {
+    width: 1200px;
+    height: 162px;
+    margin:15px 0;
+}
+
+.big .today .l {
+    width: 210px;
+    height: 122px;
+    padding: 20px 0;
+    float: left;
+    background-color: rgb(155, 155, 155);
+    color: #fff;
+    text-align: center;
+}
+
+.big .today .l span {
+    font-family: 'icomoon';
+    font-size: 35px;
+}
+
+.big .today .r {
+    width: 990px;
+    height: 162px;
+    float: left;
+    background-color: rgb(227, 225, 225);
+}
+
+.big .today .r li {
+    width: 206px;
+    height: 122px;
+    padding: 20px;
+    border-right: 2px solid rgb(143, 142, 142);
+    float: left;
+}
+
+.big .today .r .last {
+    border-right: 0px;
+}
+
+.big .today .r p {
+    height: 30px;
+}
+
+.big .today .r img {
+    float: right;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+.big .love-text {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+     margin-top: 20px;
+}
+
+.big .love-img {
+    width: 1200px;
+    height: 235px;
+    margin:15px 0;
+}
+
+.big .love-img li {
+    width: 180px;
+    height: 215px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+.big .love-img li p {
+    height: 30px;
+}
+
+.big .link-text {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+}
+
+.big .link-img {
+    width: 1200px;
+    height: 66px;
+}
+.slide{
+    width: 100px;
+    height: 310px;
+    text-align: center;
+    padding:10px 0;
+    position: fixed;
+    top:280px;
+    left:50%;
+    margin-left:-700px;
+    
+}
+.slide li{
+    width: 100px;
+height: 30px;
+}
+.slide li a{
+    color: rgb(177, 25, 26);
+}

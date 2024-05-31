@@ -1,0 +1,66 @@
+/* 以下banner的格式： 盒子的尺寸=图片的大小，设置背景图片，盒子内的文字水平垂直居中，字号  加粗  字间距  上下外边距 
+注意设置背景图，由于.css文件和.png文件不在一个文件夹内，所以需要加../*/
+.big .banner {
+    width: 1200px;
+    height: 120px;
+    background-image: url(../images/list-banner.png);
+    text-align: center;
+    line-height: 120px;
+    letter-spacing: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+/* 以下代码是产品盒子，宽度是版心的宽1200，高度是1076(350*3+13+13)*/
+.big .chanpin {
+    width: 1200px;
+    height: 1076px;
+
+}
+
+/* 以下代码是li的样式 */
+/*  宽为290，高为330（上内边距20），右外边距13【（1200-290*4）/3】，下外边距13*，图片水平居中*/
+.big .chanpin li {
+    width: 290px;
+    height: 330px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    padding-top: 20px;
+    background-color: rgb(223, 203, 203);
+    float: left;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+/* 下面代码是每行第四个li的样式 */
+.big .chanpin .last {
+    margin-right: 0px;
+}
+/* 下面代码是图片的样式，由于原图较大，故设置为原图的85% */
+.big .chanpin li img {
+    width: 85%;
+    height: 85%;
+}
+/* 以下代码为半透明的盒子,背景0.8半透明，绝对定位，初始状态为不可见，盒子内的文字离上边距30px*/
+.big .chanpin .mask {
+    width: 290px;
+    height: 100px;
+    background-color: rgba(120, 121, 120, 0.8);
+    padding-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0%;
+    transition: all .8s;
+}
+/* 以下代码为半透明盒子内的两行文字的格式 */
+.big .chanpin p {
+    height: 35px;
+    color: #fff;
+    font-size: 20px;
+}
+/* 以下代码为鼠标指向li时，半透明盒子的显示效果 */
+.big .chanpin li:hover .mask {
+    opacity: 100%;
+}

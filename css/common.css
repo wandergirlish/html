@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?9ear3j');
+    src: url('../fonts/icomoon.eot?9ear3j#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?9ear3j') format('truetype'),
+        url('../fonts/icomoon.woff?9ear3j') format('woff'),
+        url('../fonts/icomoon.svg?9ear3j#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.big {
+    width: 1200px;
+    height: 2100px;
+    margin: 0 auto;
+    background-color: rgb(241, 240, 240);
+}
+
+.big .shortcut {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.big .shortcut .l {
+    width: 230px;
+    float: left;
+
+}
+
+.big .shortcut a {
+    padding-right: 10px;
+}
+
+.big .shortcut .last {
+    padding-right: 0;
+}
+
+.big .shortcut .r {
+    width: 600px;
+    float: right;
+}
+
+.big .header {
+    width: 1200px;
+    height: 61px;
+    margin:15px 0;
+   
+}
+
+.big .header .logo {
+    width: 171px;
+    height: 61px;
+    float: left;
+}
+
+.big .header .search {
+    width: 510px;
+    height: 35px;
+    float: left;
+    margin-left: 168px;
+    margin-top: 13px;
+    border:2px solid rgb(177, 25, 26);
+}
+
+.big .header .search .l {
+    width: 415px;
+    height: 35px;
+    float: left;
+    padding-left: 20px;
+}
+
+.big .header .search .r {
+    width: 75px;
+    height: 35px;
+    float: left;
+    background-color: rgb(177, 25, 26);
+    color: #fff;
+}
+
+.big .header .shopcar {
+    width: 145px;
+    height: 35px;
+    margin-left: 109px;
+    background-color: rgb(207, 207, 206);
+    float: left;
+    margin-top: 13px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+
+}
+
+
+.big .header span {
+    font-family: 'icomoon';
+   
+    
+}
+.big .header .red{
+    color: red;
+}
+
+.big .header b {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right:20px;
+    top:-10px;
+}
+.big .nav{
+    width: 800px;
+    margin-left: 250px;
+    height: 60px;
+
+}
+.big .nav li{
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    margin-right:40px;
+}
+.big .line1{
+    width: 1200px;
+    height: 2px;
+    background: linear-gradient(to right, #b2e41f,#4811de,#db0d6a);
+    margin:15px 0;
+}
+.big .line2{
+    width: 1200px;
+    height: 2px;
+    background-color: rgb(192, 191, 191);
+    margin: 20px 0;
+}
+.big .footer-title{
+    width: 1200px;
+    height: 100px;
+}
+.big .footer-title li{
+    width: 220px;
+    height: 80px;
+    padding:10px;
+    float: left;
+}
+.big .footer-title li img{
+    float: left;
+    margin-right: 20px;
+}
+.big .footer-title li h4{
+    margin-bottom: 20px;
+    
+}
+.big .footer-info{
+    width: 1200px;
+    height: 190px;
+    margin: 15px 0;
+}
+.big .footer-info li{
+    width: 180px;
+    height: 170px;
+    padding:10px;
+    float: left;
+}
+.big .footer-info li p,h4{
+    height: 25px;
+}
+.big .copyright{
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+    padding:25px 0;
+}
+.big .copyright p{
+    height: 40px;
+    font-size: 15px;
+}
